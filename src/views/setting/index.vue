@@ -26,7 +26,7 @@
           style="width: 120px"
           v-if="isTrue"
         ></el-image>
-        <Upload v-else v-model="form.weixinQrCode" />
+        <Upload v-else v-model="form.avatar" />
       </el-form-item>
       <h1>网站图标信息</h1>
       <el-form-item label="网站图标地址" prop="favicon">
